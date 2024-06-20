@@ -8,7 +8,9 @@ void main()
         scanf("%d",&a[i]);
     }
     min = max = a[0];
+    printf("min = %d\n",a[0]);
     min2 = max2 = a[0];
+    printf("min 2 = %d\n",a[0]);
     for(i = 1 ; i < 5 ; i++)
     {
         if(min > a[i])
@@ -30,7 +32,7 @@ void main()
             max2 = a[i];
         }
     }
-    
+    printf("\n..............................................\n");
     printf("Minimum value element is %d\n",min);
     printf("Second minimum value element is %d\n",min2);
     printf("Maximum value element is %d\n", max);
